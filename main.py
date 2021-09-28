@@ -4,8 +4,8 @@
 def addCheck(x, y, z):
 #if then else
     if x + y == z:
-        return "True"
+        return True
     else:
-        return "False"
+        return False
 #run function
 print(addCheck(10,2,22))
